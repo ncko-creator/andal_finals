@@ -1,6 +1,9 @@
-for (int i = 1; i <= 5; i++) {
-    for (int j = 1; j <= i; j++) {
-        System.out.print("* ");
+int[] arr = {1, 7, 5, 7, 9, 2, 7, 4, 8, 10};
+int count = 0;
+
+for (int n : arr) {
+    if (n == 7) {
+        count++;
     }
-    System.out.println(); // Move to next line
 }
+System.out.println("The number 7 appears " + count + " times.");
