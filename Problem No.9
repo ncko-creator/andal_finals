@@ -1,0 +1,10 @@
+int sum = 0;
+int input;
+
+System.out.println("Enter numbers (0 to stop):");
+while (true) {
+    input = sc.nextInt();
+    if (input == 0) break;
+    sum += input;
+}
+System.out.println("Total Sum: " + sum);
