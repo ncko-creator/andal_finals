@@ -1,9 +1,15 @@
-int[] arr = {10, 20, 30, 40, 50};
-int target = 30;
+public class ArraySearch {
+      
+    public static void main(String[] args) {
+        
+        int[] arr = {10, 20, 30, 40, 50};
+        int target = 30;
 
-for (int num : arr) {
-    if (num == target) {
-        System.out.println("Found it!");
-        break; // Stops the loop here
+        for (int num : arr) {
+            if (num == target) {
+                System.out.println("Found it!");
+                break;
+            }
+        }
     }
 }
