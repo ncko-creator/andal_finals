@@ -1,4 +1,6 @@
-int[] arr = {5, 2, 5, 8, 5, 1};
+public class Prob12 {
+public static void main (String args []) {
+ int[] arr = {5, 2, 5, 8, 5, 1};
 int target = 5;
 int count = 0;
 
@@ -7,3 +9,5 @@ for (int num : arr) {
 }
 
 if (count >= 3) System.out.println("Yes, appears 3+ times.");
+  }
+}
