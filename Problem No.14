@@ -1,5 +1,13 @@
-int[] arr = {1, 2, 3, 4, 5};
+public class Prob12 {
+public static void main (String args []) {
+ int[] arr = {5, 2, 5, 8, 5, 1};
+int target = 5;
+int count = 0;
 
-for (int i = arr.length - 1; i >= 0; i--) {
-    System.out.print(arr[i] + " ");
+for (int num : arr) {
+    if (num == target) count++;
+}
+
+if (count >= 3) System.out.println("Yes, appears 3+ times.");
+  }
 }
