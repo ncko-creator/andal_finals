@@ -1,0 +1,14 @@
+public class prob6 {    
+
+public static void main(String args []) {
+
+int[] arr = {10, 22, 5, 40, 31, 18};
+
+System.out.print("Even numbers > 20: ");
+for (int num : arr) {
+    if (num % 2 == 0 && num > 20) {
+        System.out.print(num + " ");
+    }
+   }
+ }
+}
