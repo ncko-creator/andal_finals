@@ -1,4 +1,4 @@
-public class Prob12 {
+public class Prob13 {
 public static void main (String args []) {
  int[] arr = {5, 2, 5, 8, 5, 1};
 int target = 5;
